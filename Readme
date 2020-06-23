@@ -1,0 +1,11 @@
+Import the following:
+ createAppContainer, 
+ createSwitchNavigator,
+ Text, View, StyleSheet, Button,TouchableOpacity,ImageBackground,Image,
+ ActivityIndicator, FlatList, Text, View, TouchableOpacity, StyleSheet, Linking, ImageBackground,
+ AntDesign,FontAwesome  from @expo/vector-icons,
+ Google from expo-google-app-auth,
+ DownloadOutlined  from @ant-design/icons,
+ After Successfully imported please run the below command in Terminal to opening DevTools in the Browser
+ >>> yarn start
+ By using the Expo app in the mobile we can scan the QR code and run the application on our mobile 

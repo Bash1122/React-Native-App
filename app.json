@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "google",
+    "slug": "google",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.webiosandroid.all",
+      "config":{
+        "googleSignIn":{
+        "reservedClientId":"com.googleusercontent.apps.1069246606192-to8qbu877a1kr8vlagdisi7ej7dcb9ad"
+        }
+      }
+    }
+  }
+}
